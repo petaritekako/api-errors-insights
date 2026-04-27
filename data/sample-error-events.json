@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2025-07-15T10:10:00Z",
+    "userId": "user-123",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at DashboardPageComponent.render (dashboard.ts:22)"
+  },
+  {
+    "timestamp": "2025-07-15T10:11:30Z",
+    "userId": "user-456",
+    "browser": "Firefox",
+    "url": "/settings",
+    "errorMessage": "ReferenceError: config is not defined",
+    "stackTrace": "at SettingsPageComponent.save (settings.ts:48)"
+  },
+  {
+    "timestamp": "2025-07-15T10:12:15Z",
+    "userId": "user-123",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "NetworkError when attempting to fetch resource",
+    "stackTrace": "at async DashboardService.loadStats (dashboard.ts:88)"
+  },
+  {
+    "timestamp": "2025-07-15T10:13:05Z",
+    "userId": "user-789",
+    "browser": "Safari",
+    "url": "/reports",
+    "errorMessage": "TypeError: Cannot read properties of undefined (reading 'map')",
+    "stackTrace": "at ReportsTableComponent.buildRows (reports.ts:31)"
+  },
+  {
+    "timestamp": "2025-07-15T10:14:10Z",
+    "userId": "user-321",
+    "browser": "Edge",
+    "url": "/login",
+    "errorMessage": "SyntaxError: Unexpected token '<'",
+    "stackTrace": "at JSON.parse (<anonymous>)"
+  },
+  {
+    "timestamp": "2025-07-15T10:15:45Z",
+    "userId": "user-456",
+    "browser": "Firefox",
+    "url": "/settings",
+    "errorMessage": "ReferenceError: config is not defined",
+    "stackTrace": "at SettingsPageComponent.loadDefaults (settings.ts:19)"
+  },
+  {
+    "timestamp": "2025-07-15T10:16:20Z",
+    "userId": "user-654",
+    "browser": "Chrome",
+    "url": "/projects",
+    "errorMessage": "TypeError: Failed to fetch",
+    "stackTrace": "at async ProjectsApi.getAll (projects-api.ts:54)"
+  },
+  {
+    "timestamp": "2025-07-15T10:17:00Z",
+    "userId": "user-741",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at DashboardPageComponent.refreshWidget (dashboard.ts:67)"
+  },
+  {
+    "timestamp": "2025-07-15T10:18:25Z",
+    "userId": "user-852",
+    "browser": "Safari",
+    "url": "/reports",
+    "errorMessage": "RangeError: Invalid time value",
+    "stackTrace": "at Date.toISOString (<anonymous>)"
+  },
+  {
+    "timestamp": "2025-07-15T10:19:40Z",
+    "userId": "user-963",
+    "browser": "Firefox",
+    "url": "/dashboard",
+    "errorMessage": "NetworkError when attempting to fetch resource",
+    "stackTrace": "at async DashboardService.loadStats (dashboard.ts:88)"
+  },
+  {
+    "timestamp": "2025-07-15T10:20:05Z",
+    "userId": "user-111",
+    "browser": "Chrome",
+    "url": "/tasks",
+    "errorMessage": "ReferenceError: taskId is not defined",
+    "stackTrace": "at TasksPageComponent.selectTask (tasks.ts:44)"
+  },
+  {
+    "timestamp": "2025-07-15T10:21:15Z",
+    "userId": "user-222",
+    "browser": "Edge",
+    "url": "/projects",
+    "errorMessage": "TypeError: Failed to fetch",
+    "stackTrace": "at async ProjectsApi.getAll (projects-api.ts:54)"
+  },
+  {
+    "timestamp": "2025-07-15T10:22:30Z",
+    "userId": "user-333",
+    "browser": "Chrome",
+    "url": "/reports",
+    "errorMessage": "TypeError: Cannot read properties of undefined (reading 'map')",
+    "stackTrace": "at ReportsTableComponent.buildRows (reports.ts:31)"
+  },
+  {
+    "timestamp": "2025-07-15T10:23:50Z",
+    "userId": "user-444",
+    "browser": "Safari",
+    "url": "/settings",
+    "errorMessage": "ReferenceError: config is not defined",
+    "stackTrace": "at SettingsPageComponent.save (settings.ts:48)"
+  },
+  {
+    "timestamp": "2025-07-15T10:24:35Z",
+    "userId": "user-555",
+    "browser": "Firefox",
+    "url": "/login",
+    "errorMessage": "SyntaxError: Unexpected token '<'",
+    "stackTrace": "at JSON.parse (<anonymous>)"
+  },
+  {
+    "timestamp": "2025-07-15T10:25:45Z",
+    "userId": "user-666",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "Uncaught TypeError: undefined is not a function",
+    "stackTrace": "at DashboardPageComponent.render (dashboard.ts:22)"
+  },
+  {
+    "timestamp": "2025-07-15T10:26:30Z",
+    "userId": "user-777",
+    "browser": "Edge",
+    "url": "/reports",
+    "errorMessage": "RangeError: Invalid time value",
+    "stackTrace": "at ChartWidgetComponent.prepareRange (chart-widget.ts:73)"
+  },
+  {
+    "timestamp": "2025-07-15T10:27:10Z",
+    "userId": "user-888",
+    "browser": "Chrome",
+    "url": "/tasks",
+    "errorMessage": "ReferenceError: taskId is not defined",
+    "stackTrace": "at TasksPageComponent.openDetails (tasks.ts:87)"
+  },
+  {
+    "timestamp": "2025-07-15T10:28:40Z",
+    "userId": "user-999",
+    "browser": "Firefox",
+    "url": "/projects",
+    "errorMessage": "TypeError: Failed to fetch",
+    "stackTrace": "at async ProjectsApi.getAll (projects-api.ts:54)"
+  },
+  {
+    "timestamp": "2025-07-15T10:29:55Z",
+    "userId": "user-159",
+    "browser": "Chrome",
+    "url": "/dashboard",
+    "errorMessage": "NetworkError when attempting to fetch resource",
+    "stackTrace": "at async DashboardService.loadStats (dashboard.ts:88)"
+  }
+]
