@@ -1,0 +1,35 @@
+{
+  "name": "api-errors-insights",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend API for the Real-Time Error Insights Dashboard trial task.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "bs": "npm run build && npm run start",
+    "dev": "tsx watch src/server.ts",
+    "ingest:sample": "tsx src/scripts/ingestFile.ts data/sample-error-events.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.18.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "inversify": "^7.10.1",
+    "mongodb": "^6.20.0",
+    "redis": "^5.9.0",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.2",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

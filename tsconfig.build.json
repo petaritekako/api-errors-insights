@@ -1,0 +1,13 @@
+{
+  // Production build config.
+  // It extends the base config but only includes src files, so dist contains deployable app code.
+  // This keeps the runtime entry point at dist/server.js and prevents test files from being emitted.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["test/**/*.ts"]
+}
